@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Registration Form</title>
+  <link rel="stylesheet" href="2nd.css">
+</head>
+<body>
+
+  <h1>Registration Form</h1>
+  <form action="https://mlkcollege.ac.in/process-registration" method="post">
+
+    <label for="fname">First Name:</label>
+    <input type="text" id="fname" name="fname" placeholder="Enter your first name" required><br><br>
+
+    <label for="lname">Last Name:</label>
+    <input type="text" id="lname" name="lname" placeholder="Enter your last name" required><br><br>
+
+    <label for="fathername">Father's Name:</label>
+    <input type="text" id="fathername" name="fathername" placeholder="Enter your father's name"><br><br>
+
+    <label for="mothername">Mother's Name:</label>
+    <input type="text" id="mothername" name="mothername" placeholder="Enter your mother's name"><br><br>
+
+    <label for="mobilenumber">Mobile Number:</label>
+    <input type="tel" id="mobilenumber" name="mobilenumber" placeholder="Enter your mobile number" required><br><br>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" placeholder="Enter your email id" required><br><br>
+
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password" placeholder="Create a password" required><br><br>
+
+    <label for="confirmpassword">Confirm Password:</label>
+    <input type="password" id="confirmpassword" name="confirmpassword" placeholder="Confirm your password" required><br><br>
+
+    <p>Select Class:</p>
+    <input type="checkbox" id="classX" name="class" value="Class X">
+    <label for="classX">Class X</label><br>
+    <input type="checkbox" id="classXII" name="class" value="Class XII">
+    <label for="classXII">Class XII</label><br><br>
+
+    <label for="qualification">Qualification:</label>
+    <select name="qualification" id="qualification">
+      <option value="">Select Qualification</option>
+      <option value="X">X</option>
+      <option value="XII">XII</option>
+      <option value="Under Graduate">Under Graduate</option>
+      <option value="Post Graduate">Post Graduate</option>
+      <option value="PhD">PhD</option>
+      <option value="Other">Other</option>
+    </select><br><br>
+    
+     <TABLE>
+            <caption>
+              <h2>
+                Educational Details
+              </h2>
+            </caption>
+            <TR>
+                <th>
+                    Standard X
+                </th>
+                <th>
+                    <input type="number" id="stdX" name="stdX" placeholder="Enter your Xth Standard marks" required><br><br>
+                </th></TR>
+                <th>
+                    Roll number
+                </th>
+                <th>
+                    <input type="number" id="rollnoX" name="rollnoX" placeholder="Enter your Xth Standard roll number" required><br><br>
+                </th>
+            </tr>
+            <tr>
+                <th>
+                    subjects
+                </th>
+                <th>
+                     <input type="text" id="subname" name="subname" placeholder="Enter your Xth standard subjects name" required><br><br>
+                </th>
+            </tr>
+            <TR>
+                <Th>
+                    Marks in %
+                </Th>
+                <Th>
+                    <input type="number" id="marksX" name="marksX" placeholder="Enter your Xth Standard marks in %" required><br><br>
+                </Th>
+
+            </TR>
+                 <hr>
+            <TR>
+                <th>
+                    Standard XII
+                </th>
+                <th>
+                    <input type="number" id="stdXII" name="stdXII" placeholder="Enter your XIIth Standard marks" required><br><br>
+                </th></TR>
+                <th>
+                    Roll number
+                </th>
+                <th>
+                    <input type="number" id="rollnoXII" name="rollnoXII" placeholder="Enter your XIIth Standard roll number" required><br><br>
+                </th>
+            </tr>
+            <tr>
+                <th>
+                    subjects
+                </th>
+                <th>
+                     <input type="text" id="subname" name="subname" placeholder="Enter your XIIth standard subjects name" required><br><br>
+                </th>
+            </tr>
+            <TR>
+                <Th>
+                    Marks in %
+                </Th>
+                <Th>
+                    <input type="number" id="marksXII" name="marksXII" placeholder="Enter your XIIth Standard marks in %" required><br><br>
+                </TH> 
+            </TR>
+             <BR>
+
+              <TR>
+                <th>
+                    Graduation
+                </th>
+                <th>
+                    <input type="number" id="grpn" name="grpn" placeholder="Enter your graduation marks" required><br><br>
+                </th></TR>
+                <th>
+                    CR_NUMBER
+                </th>
+                <th>
+                    <input type="number" id="crnum" name="crnum" placeholder="Enter your CR Number" required><br><br>
+                </th>
+            </tr>
+            <tr>
+                <th>
+                    subjects
+                </th>
+                <th>
+                     <input type="text" id="subname" name="subname" placeholder="Enter your Graduations subjects name" required><br><br>
+                </th>
+            </tr>
+            <TR>
+                <Th>
+                    Marks in GPA/CGPA
+                </Th>
+                <Th>
+                    <input type="number" id="marksgpa" name="marksgpa" placeholder="Enter your marks in GPA/CGPA" required><br><br>
+                </Th>
+
+            </TR>
+     </TABLE>
+          <br>
+          <hr>
+          <table>
+            <caption>
+              <h2>
+                Upload Documents
+              </h2>
+            </caption>
+            <tr>
+                <th>
+                      Profile Photo
+                </th>
+                <br>
+                <td>
+                    <input type="file" id="signX" name="signX" accept="image/*" required><br><br>
+                </td>
+            </tr>
+            <tr>
+              <th>
+                     XTH Marksheet
+              </th>
+              <br>
+              <td>
+                    <input type="file" id="marksheetX" name="marksheetX" accept="image/*" required><br><br>
+                </td>
+            </tr>
+            <tr>
+              <td>
+                      XIIth Marksheet
+              </td>
+              <td>
+                    <input type="file" id="marksheetXII" name="marksheetXII" accept="image/*" required><br><br>
+                </td>
+            </tr>
+            <tr>
+                <th>
+                      ID Proof
+                </th>
+                <br>
+                <td>
+                    <input type="file" id="idproof" name="idproof" accept="image/*" required><br><br>
+                </td>
+                </tr>
+                <tr>
+                  <th>
+                    Other valide ID Proof
+                  </th>
+                  <td>
+                    <input type="file" id="otheridproof" name="otheridproof" accept="image/*" required><br><br>
+                </tr>
+
+                <tr>
+                <th>
+                      Address Proof
+                </th>
+                <td>
+                    <input type="file" id="addressproof" name="addressproof" accept="image/*" required><br><br>
+                </td>
+                </tr>
+                <tr>
+                <th>
+                      Signature
+                </th>
+                <br>
+                <td>
+                    <input type="file" id="sign" name="sign" accept="image/*" required><br><br>
+                </td>
+                </tr>
+                
+            </tr>
+
+        </TABLE>
+         <table>
+            <caption>
+              <h2>
+                Verify Uploaded Documents
+              </h2>
+            </caption>
+            <tr>
+                <th>
+                      Profile Photo
+                </th>
+                <br>
+                <td>
+                    <input type="file" id="signX" name="signX" accept="image/*" required><br><br>
+                </td>
+            </tr>
+            <tr>
+              <th>
+                     XTH Marksheet
+              </th>
+              <br>
+              <td>
+                    <input type="file" id="marksheetX" name="marksheetX" accept="image/*" required><br><br>
+                </td>
+            </tr>
+            <tr>
+              <td>
+                      XIIth Marksheet
+              </td>
+              <td>
+                    <input type="file" id="marksheetXII" name="marksheetXII" accept="image/*" required><br><br>
+                </td>
+            </tr>
+            <tr>
+                <th>
+                      ID Proof
+                </th>
+                <br>
+                <td>
+                    <input type="file" id="idproof" name="idproof" accept="image/*" required><br><br>
+                </td>
+                </tr>
+                <tr>
+                  <th>
+                    Other valide ID Proof
+                  </th>
+                  <td>
+                    <input type="file" id="otheridproof" name="otheridproof" accept="image/*" required><br><br>
+                </tr>
+
+                <tr>
+                <th>
+                      Address Proof
+                </th>
+                <td>
+                    <input type="file" id="addressproof" name="addressproof" accept="image/*" required><br><br>
+                </td>
+                </tr>
+                <tr>
+                <th>
+                      Signature
+                </th>
+                <br>
+                <td>
+                    <input type="file" id="sign" name="sign" accept="image/*" required><br><br>
+                </td>
+                </tr>
+                
+            </tr>
+
+        </TABLE>
+    <label for="state">State:</label>
+    <select name="state" id="state">
+      <option value="">Select State</option>
+      <option value="Madhya Pradesh">Madhya Pradesh</option>
+      <option value="Arunachal Pradesh">Arunachal Pradesh</option>
+      <option value="Uttar Pradesh">Uttar Pradesh</option>
+      <option value="Himachal Pradesh">Himachal Pradesh</option>
+      <option value="Goa">Goa</option>
+      <option value="None">None of these</option>
+    </select><br><br>
+
+    <label for="city">City:</label>
+    <select name="city" id="city">
+      <option value="">Select City</option>
+      <option value="Delhi">Delhi</option>
+      <option value="Mumbai">Mumbai</option>
+      <option value="Bangalore">Bangalore</option>
+      <option value="Balrampur">Balrampur</option>
+      <option value="None">None of these</option>
+    </select><br><br>
+
+    <label for="postoffice">Post Office:</label>
+    <select name="postoffice" id="postoffice">
+      <option value="">Select Post Office</option>
+      <option value="Baldev Nagar">Baldev Nagar</option>
+      <option value="Mangrakohal">Mangrakohal</option>
+      <option value="Laliya">Laliya</option>
+      <option value="Basantpur">Basantpur</option>
+      <option value="Lavkahwa">Lavkahwa</option>
+      <option value="None">None of these</option>
+    </select><br><br>
+
+    <label for="village">Village:</label>
+    <select name="village" id="village">
+      <option value="">Select Village</option>
+      <option value="Dalpatpur">Dalpatpur</option>
+      <option value="Baldev Nagar">Baldev Nagar</option>
+      <option value="Turkauliya">Turkauliya</option>
+      <option value="Magrakohal">Magrakohal</option>
+      <option value="Shivpura">Shivpura</option>
+      <option value="Maharajganj">Maharajganj</option>
+      <option value="Pratappur">Pratappur</option>
+      <option value="Bardauliya">Bardauliya</option>
+      <option value="None">None of these</option>
+    </select><br><br>
+
+    <label for="interest">Interest:</label>
+    <select name="interest" id="interest">
+      <option value="">Select Interest</option>
+      <option value="Playing Football">Playing Football</option>
+      <option value="Learning Books">Learning Books</option>
+      <option value="Coding">Coding</option>
+      <option value="Other">Other</option>
+    </select><br><br>
+
+    <label for="feedback">Feedback:</label><br>
+    <textarea name="feedback" id="feedback" placeholder="Please add your valuable feedback here" rows="4" cols="40"></textarea><br><br>
+
+    <label for="message">Message:</label><br>
+    <textarea id="message" name="message" placeholder="Please type your inquiries here" rows="6" cols="60"></textarea><br><br>
+
+    <input type="submit" value="Submit">
+
+  </form>
+ <footer style="background:gold; text-align:center; padding:10px;">
+      <p>👑 Created by Prabhudayal | © 2025 Royals World 👑</p>
+  </footer>
+
+</body>
+</html>
